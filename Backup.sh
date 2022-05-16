@@ -6,4 +6,12 @@ dest=/home//Dokument/destination
 for file in $(find $source -printf "%P\n") ; do
 	if [ -a $source/$file -nt $dest/$file ] ; then
 		echo "Newer file detected, copying..."
-		cp -r $source/
+		cp -r $source/$file $dest/$file
+		else
+		echo "File $file exists, skipping."
+		fi
+	else
+	echo "$file is being copied over to $dest"
+	cp -r $source/$file $dest/$file
+	fi
+done
