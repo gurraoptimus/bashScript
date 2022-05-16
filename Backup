@@ -1,5 +1,4 @@
-#!//
+#!/bin/bash
 
-source=/home/gurkan/
-dest=/home/gurkan/
-
+source=/home/gurkan/Dokument/source
+dest=/home/gurkan/Dokument/destination
