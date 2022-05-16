@@ -1,5 +1,4 @@
 #!//
-
 source=/home//Dokument/source
 dest=/home//Dokument/destination
 
