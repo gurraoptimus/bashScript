@@ -7,9 +7,8 @@ user=$(whoami)
 date=$(date)
 whereami=$(pwd)
 
+echo "what is your name"
 read name
-echo"what is your name"
-
 
 echo "Good Morning $name!!"
 sleep 1
