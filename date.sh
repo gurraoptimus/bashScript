@@ -9,7 +9,7 @@ whereami=$(pwd)
 
 echo "what is your name"
 read name
-echo "type echo comapliment text."
+echo "type comapliment text."
 read comapliment
 
 echo "Good Morning $name!!"
