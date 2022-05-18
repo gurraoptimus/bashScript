@@ -17,6 +17,6 @@ sleep 1
 echo "you're looking good today $name!!"
 sleep 1
 echo "you have the best $comapliment I've ever seen $name!!"
-sleep 2
+sleep 3
 
 echo "you are currently logged in as $user and you are in the directory $whereami. Also today is: $date"
