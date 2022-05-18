@@ -9,6 +9,7 @@ whereami=$(pwd)
 
 echo "what is your name"
 read name
+read comapliment
 
 echo "Good Morning $name!!"
 sleep 1
