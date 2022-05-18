@@ -7,9 +7,11 @@ user=$(whoami)
 date=$(date)
 whereami=$(pwd)
 
-echo "Good Night $name!!"
+echo "Good Morning $name!!"
 sleep 1
-echo "See you tomorrow $name!!"
+echo " you're looking good today $name!!"
 sleep 1
+echo "you have the best $comapliment I've ever seen $name!!"
+sleep 2
 
 echo "you are currently logged in as $user and you are in the directory $whereami. Also today is: $date"
