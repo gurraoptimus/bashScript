@@ -29,14 +29,14 @@ This is an example of how to list things you need to use the software and how to
 [Node.js](https://nodejs.org/en/download/)
 ## win10 [git](https://git-scm.com/downloads/)
 ```sh
-sh echo.sh
+sh example.sh
 ```
 ## Linux 
 ## -rwxr-xr-x
 ```sh
-ls -l echo.sh
-chmod +x echo.sh
-./echo.sh
+ls -l example.sh
+chmod +x example.sh
+./example.sh
 ```
 ## License
 
