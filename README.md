@@ -32,7 +32,7 @@ This is an example of how to list things you need to use the software and how to
 sh example.sh
 ```
 ## Linux 
-## -rwxr-xr-x
+## -rw-r--r--
 ```sh
 ls -l example.sh
 chmod +x example.sh
