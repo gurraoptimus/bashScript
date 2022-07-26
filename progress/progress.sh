@@ -4,6 +4,7 @@
 #
 #   Shows animated progress bar.
 #   returns 255 when progress exceeds maxprogress
+#
 source $(dirname $0)/../simple.sh
 progress=0
 maxprogress=1000
