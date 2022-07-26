@@ -9,5 +9,10 @@ source $(dirname $0)/../simple_curses.sh
 progress=0
 maxprogress=1000
 main(){
-    window "PROGRESS" "whit" "33%"
+    window "PROGRESS" "whit" "33%" "gray"
+    progressbar 70 $progress $maxprogress "green" "gray"
+    endwin
+}
+update(){
+    
 }
