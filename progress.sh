@@ -14,5 +14,7 @@ main(){
     endwin
 }
 update(){
-    
+sleep 0.2
+progress=$((progress + 1 ))
+[ "progress" -gt "$ma"]
 }
