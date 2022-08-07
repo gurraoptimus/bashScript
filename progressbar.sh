@@ -15,7 +15,7 @@ main(){
 }
 update(){
 sleep 0.2
-progress=$((progress + 1 ))
+progress=$(( progress + 1 ))
 [ "progress" -gt "$maxprogress" ] && return 255
 return 0
 }
